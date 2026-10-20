@@ -2,7 +2,7 @@ import * as T from 'three';
 import {OrbitControls} from './vendor/OrbitControls.js';
 import {createBuilding as createBank} from './model.js';
 import {createBuilding as createHotel} from './kent-hotel/model.js';
-import {createBuilding as createOttoman} from './osmanli-bankasi/model.js';
+import {createBuilding as createOttoman} from './osmanli-bankasi/model.js?v=stairs-1';
 
 const $=id=>document.getElementById(id);
 try{await start();}catch(error){console.error(error);$('loading').textContent='Ortak görünüm açılamadı: '+error.message;}

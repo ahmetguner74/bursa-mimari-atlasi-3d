@@ -104,8 +104,14 @@ export function createBuilding(D,era='bank'){
  for(const x of [-1.83,1.83])box(x,15.57,6.4,.18,.2,4.7,ivory);
  box(0,15.64,5.33,2.25,.1,2.55,glass);
  box(0,15.7,5.35,.09,.12,2.45,iron);
- for(let i=0;i<6;i++)box(0,15.45+i*.49,.2+i*.38,5.05,2.35-i*.26,.4,stone);
- for(const x of [-2.3,2.3])line(x,15.5,.9,x,18.55,2.45,.05,iron);
+ // The upper landing meets the raised door; each tread descends away from it.
+ const landingTop=4,landingEdge=16.55,tread=.42,riser=landingTop/12;
+ box(0,16.05,landingTop/2,5.05,1,landingTop,stone);
+ for(let i=0;i<11;i++){
+  const top=landingTop-(i+1)*riser;
+  box(0,landingEdge+(i+.5)*tread,top/2,5.05,tread,top,stone);
+ }
+ for(const x of [-2.3,2.3])line(x,15.72,4.46,x,landingEdge+11*tread,.72,.05,iron);
 
  // Square drum and onion dome, traced from the archival front photograph.
  box(0,10.0,11.55,6.7,6.7,2.2,ivory);

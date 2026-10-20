@@ -1,6 +1,6 @@
 import * as T from 'three';
 import {OrbitControls} from './vendor/OrbitControls.js';
-import {createBuilding} from './model.js';
+import {createBuilding} from './model.js?v=stairs-1';
 
 const $=id=>document.getElementById(id);
 try{await start();}catch(error){console.error(error);$('loading').textContent='3B görünüm açılamadı: '+error.message;}
