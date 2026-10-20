@@ -16,7 +16,7 @@ from shapely.ops import unary_union
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = Path(sys.argv[1])
 OUTPUT = ROOT / "docs" / "dgn-underlay.json"
-WINDOW = box(555, 285, 735, 445)
+WINDOW = box(480, 275, 750, 475)
 ROOF_LAYERS = {"B_Mesken", "B_Ticari", "B_Dini tesis", "B_Resmi", "B_Tarihi"}
 LINE_KINDS = {"curb", "wall", "retaining_wall", "stairs"}
 
@@ -86,7 +86,7 @@ payload = {
     "schema": "bursa-dgn-underlay/v1",
     "coordinateFrame": "Original DGN projected XY in metres, minus source origin; Z flattened",
     "origin": flat["origin"],
-    "bounds": [555, 285, 735, 445],
+    "bounds": [480, 275, 750, 475],
     "sourceSheets": [
         {"name": Path(source["path"]).name, "sha256": source["sha256"]}
         for source in flat["metadata"]["sources"]
