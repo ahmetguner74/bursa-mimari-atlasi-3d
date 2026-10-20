@@ -1,0 +1,157 @@
+{
+  "title": "Bursa Ulu Cami ve Mecidiye Çeşme-i Âlîsi 3B model kanıt ve belirsizlik kaydı",
+  "reviewDate": "2026-10-12",
+  "sourceGeometry": {
+    "path": "../Ulucami-flat-map-experiment/flat-data.json",
+    "originalDgnSheets": [
+      "H22D07A3A",
+      "H22D07A4B"
+    ],
+    "mergedBuildingRecords": [
+      "raw:H22D07A3A:record:4524",
+      "raw:H22D07A4B:record:2333"
+    ],
+    "minaretSymbolRecords": [
+      "raw:H22D07A3A:record:8348",
+      "raw:H22D07A4B:record:6592"
+    ],
+    "cbsPoi": "poi:58329",
+    "classification": "B_Dini tesis",
+    "directFromOrDerivedFromDgn": [
+      "footprint polygon",
+      "roof top elevation",
+      "minaret symbol XY / H"
+    ],
+    "inferredFromNearbySurvey": [
+      "ground elevation",
+      "facade height below roof"
+    ],
+    "notVerified": [
+      "minaret symbol H as actual tip",
+      "physical host of minaret symbols",
+      "individual dome heights",
+      "facade openings"
+    ]
+  },
+  "architecturalSources": [
+    {
+      "title": "T.C. Kültür ve Turizm Bakanlığı Kültür Portalı · Ulu Cami",
+      "url": "https://www.kulturportali.gov.tr/turkiye/bursa/kulturenvanteri/ulu-cami",
+      "usedFor": [
+        "20 kubbe",
+        "camlı orta kubbe",
+        "1399–1400 bitiş",
+        "taç kapı",
+        "kesme taş cephe"
+      ]
+    },
+    {
+      "title": "Bursa Alan Başkanlığı · Ulu Cami",
+      "url": "https://alanbaskanligi.bursa.bel.tr/ulu-cami/",
+      "usedFor": [
+        "yaklaşık 69 × 55 m plan",
+        "kuzey köşelerinde iki minare",
+        "tuğla minare gövdeleri",
+        "kuzey taçkapı ve cephe genel düzeni"
+      ]
+    },
+    {
+      "title": "Bursa Büyükşehir Belediyesi · Bursa Ulu Cami",
+      "url": "https://www.bursa.bel.tr/qr/?id=mekan-30&lang=tr",
+      "usedFor": [
+        "iki minare",
+        "20 kubbe",
+        "doğu/batı/kuzey kapıları"
+      ]
+    },
+    {
+      "title": "TDV İslâm Ansiklopedisi · Bursa Ulucamii, Doğan Yavaş",
+      "url": "https://islamansiklopedisi.org.tr/ulucami#11-bursa-ulucamii",
+      "usedFor": [
+        "kubbe çapı yaklaşık 11 m",
+        "kuzey taçkapı",
+        "plan ve 20 kubbe"
+      ]
+    },
+    {
+      "title": "Anadolu Ajansı · Bursa'nın Ayasofya'sı Ulu Cami, 2018",
+      "url": "https://www.aa.com.tr/tr/turkiye/bursanin-ayasofyasi-ulu-cami/1159399",
+      "usedFor": [
+        "dış ve çatı fotoğrafı çapraz kontrolü"
+      ]
+    },
+    {
+      "title": "Museum With No Frontiers · Bursa Ulu Cami kuzey taçkapı fotoğrafı",
+      "url": "https://islamicart.museumwnf.org/database_item.php?id=monument%3BISL%3Btr%3BMon01%3B16%3Ben",
+      "usedFor": [
+        "kuzey giriş mermer çerçevesi, sivri kemer ve merdivenlerin görsel yönlendirmesi"
+      ]
+    },
+    {
+      "title": "Kültür Portalı · Ulu Cami (Çinili Çeşme)",
+      "url": "https://www.kulturportali.gov.tr/turkiye/bursa/kulturenvanteri/ulu-cami-cinili-cesme",
+      "usedFor": [
+        "güneybatı köşe",
+        "dört yüz",
+        "üç mermer yalak",
+        "doğu bakım kapağı",
+        "Kütahya çinileri",
+        "ahşap taşıyıcı ve bakır çatı",
+        "1903/1994 dönemleri"
+      ]
+    },
+    {
+      "title": "Kültür Envanteri · Mecidiye Çeşme-i Âlîsi, KE195600",
+      "url": "https://kulturenvanteri.com/yer/mecidiye-cesme-i-alisi-bursa/",
+      "usedFor": [
+        "yaklaşık WGS84 işareti",
+        "tarih ve fotoğraf karşılaştırması"
+      ]
+    },
+    {
+      "title": "Bursa Alan Başkanlığı · Ulu Cami",
+      "url": "https://alanbaskanligi.bursa.bel.tr/ulu-cami/",
+      "usedFor": [
+        "Çinili Çeşme'nin 1959 yıkımı ve 1993–94 yeniden yapımı"
+      ]
+    }
+  ],
+  "userSuppliedVisualReference": {
+    "name": "Mecidiye Çeşme-i Âlîsi Kültür Envanteri ekran görüntüsü (Fotoğraf 1.jpg)",
+    "usedFor": [
+      "KE195600 kimliği",
+      "tarihî geniş saçak ve cephe karşılaştırması"
+    ],
+    "redistributed": false,
+    "textureUsed": false
+  },
+  "facadePhotoReferences": {
+    "localGallery": "fotograflar.html",
+    "eastProvenance": "User supplied; original provider and capture date were not independently verified",
+    "southDirectionConfidence": "visual inference only; no photo GPS",
+    "modeledFromPhotos": [
+      "east door in the bay nearest the northeast minaret",
+      "upper stone lattice versus lower iron-barred windows",
+      "pale stacked minaret stone crowns",
+      "pale lead domes and polygonal ventilated drums",
+      "irregular ashlar material"
+    ],
+    "photographsUsedAsTextures": false,
+    "privateReferenceCounts": {
+      "east": 3,
+      "northAndRoof": 5,
+      "southCandidate": 2
+    },
+    "publicGalleryNote": "Public gallery links to credited external sources; user-supplied reference images remain local and are not redistributed."
+  },
+  "interpretation": {
+    "domeGrid": "5 × 4, official count and extant roof visual; exact center positions and rises not surveyed",
+    "glassDomeCell": "schematic among central bays; exact one of four central cells not independently verified",
+    "northPortal": "photo-guided massing, steps and abstract muqarnas; exact ornament not replicated",
+    "windowRhythm": "east photographs guide four blind arches, paired upper stone grilles and lower iron-barred windows; openings remain overlays rather than cuts into the DGN extrusion",
+    "minaretShafts": "symbol XY from DGN; shaft width/profile/tip estimated",
+    "facadeAndRoofColor": "representative and not color-calibrated",
+    "fountain": "3D model represents the 1994 reconstruction. Its inventory point is approximate and the visual model centre is moved about 5 m southwest to avoid overlap with the surveyed mosque footprint. Footprint, tile patterns, basin details and roof dimensions are interpretive."
+  },
+  "photoRights": "User-supplied references are not included in this public repository; licensed external archive photographs remain linked with attribution. No photo pixels were used as model textures."
+}

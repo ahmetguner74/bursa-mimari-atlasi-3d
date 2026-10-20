@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "building_id": "shared-historic-building:KE447812+KE421679",
+  "display_name": "Bursa İttihat ve Terakki Kulübü / Osmanlı Bankası Bursa Şubesi",
+  "reconstruction_state": [
+    "1930 fotoğrafındaki 1934 öncesi kulüp izli cephe",
+    "1934 sonrası banka dönemi"
+  ],
+  "source_review_date": "2026-10-12",
+  "sources": [
+    {
+      "kind": "historical_inventory",
+      "url": "https://kulturenvanteri.com/yer/osmanli-bankasi-bursa/",
+      "credit": "Kültür Envanteri, KE No 447812",
+      "used_for": "yaklaşık harita işareti, yapı kimliği ve kayıp durumu",
+      "marker_wgs84_lon_lat": [
+        29.06318528498204,
+        40.18363951483485
+      ],
+      "limit": "Nokta ölçülü tarihî oturum veya bina merkezi değildir."
+    },
+    {
+      "kind": "historical_inventory",
+      "url": "https://kulturenvanteri.com/yer/bursa-ittihat-ve-terakki-kulubu/",
+      "credit": "Kültür Envanteri, KE No 421679",
+      "used_for": "aynı binanın kulüp kimliği, yaklaşık alternatif harita işareti, yıkılış ve Orhangazi Çarşısı ilişkisi",
+      "marker_wgs84_lon_lat": [
+        29.063659825500736,
+        40.183656016510355
+      ],
+      "limit": "Diğer envanter işaretinden yaklaşık 40,5 m uzaktadır; kesin oturum değildir."
+    },
+    {
+      "kind": "archive_research",
+      "url": "https://saltonline.org/tr/osmanli-bankasi-nin-bursa-daki-tarihi-2776",
+      "credit": "Agah Enes Yasa, SALT, 27 Eylül 2024",
+      "used_for": "1917 kulüp devri, bankanın alt kat kiracılığı, 1934 merdiven/kubbe yıkımı, Art Deco cadde girişi ve 1984 yıkımı"
+    },
+    {
+      "kind": "archival_photograph",
+      "url": "https://saltonline.org/assets/943820d7-a24b-4af1-9bc2-ddbe02dc9ae1?fit=contain&format=webp&quality=75&width=3840",
+      "credit": "SALT Araştırma, Osmanlı Bankası Arşivi",
+      "caption": "Osmanlı Bankası Bursa Şubesi, 1930",
+      "used_for": "1930 fotoğrafında görülen 1934 öncesi Koza Han cephesi, sivri kemer, merdiven ve kubbe; kulüp 1917 sonrası kullanımının mimari izleri",
+      "redistributed": false,
+      "texture_used": false
+    },
+    {
+      "kind": "archival_photograph",
+      "url": "https://saltonline.org/assets/93e585d1-f150-4489-821e-fb2538387c43?fit=contain&format=webp&quality=75&width=3840",
+      "credit": "Fotoğraf: İhsan Celal Antel; SALT Araştırma, Osmanlı Bankası Arşivi",
+      "caption": "Osmanlı Bankası Bursa Şubesi Atatürk Caddesi girişi, 1940'ların başı",
+      "used_for": "1934 sonrası Art Deco cadde girişi ve parmaklıklı pencereler; kulüp dönemine taşınmadı",
+      "redistributed": false,
+      "texture_used": false
+    },
+    {
+      "kind": "user_supplied_visual_reference",
+      "reference": "Kullanıcının paylaştığı Osmanlı Bankası Kültür Envanteri ekran görüntüsü (Fotoğraf 1.jpg)",
+      "used_for": "KE 447812 eşleşmesi ve yaklaşık harita konumunun okunması",
+      "redistributed": false
+    },
+    {
+      "kind": "user_supplied_visual_reference",
+      "reference": "Kullanıcının paylaştığı Bursa İttihat ve Terakki Kulübü Kültür Envanteri ekran görüntüsü (Fotoğraf 1.jpg)",
+      "used_for": "KE 421679 eşleşmesi ve 1934 öncesi kemerli cephenin tanınması",
+      "redistributed": false
+    },
+    {
+      "kind": "current_street_alignment",
+      "reference": "Yerel CBS navigation-data.json, Atatürk Cd. orta çizgisi",
+      "used_for": "tahminî planın caddede yönlendirilmesi",
+      "limit": "Güncel yol doğrultusu tarihî sınır veya cephe ölçüsü değildir."
+    }
+  ],
+  "interpretation": [
+    "planın tam sınırları",
+    "18,5 m cadde cephesi",
+    "25,5 m plan derinliği",
+    "kanatların bağlantısı",
+    "kat ve kubbe yükseklikleri",
+    "renk ve malzeme",
+    "görünmeyen yan ve çatı yüzeyleri",
+    "Kulüp döneminin belgelenmeyen cadde cephesi",
+    "1934 sonrası Koza Han tarafındaki dükkân vitrin düzeni ve baca ölçüleri"
+  ],
+  "extant_dgn_footprint": false,
+  "same_building_evidence": "https://saltonline.org/tr/osmanli-bankasi-nin-bursa-daki-tarihi-2776",
+  "marker_disagreement_m": 40.459
+}

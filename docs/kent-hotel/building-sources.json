@@ -1,0 +1,63 @@
+{
+  "schema_version": 2,
+  "building_id": "Kent-Hotel-Bursa-DGN-1146-1148",
+  "display_name": "Kent Hotel, Bursa",
+  "source_review_date": "2026-10-12",
+  "geometry_source_ids": [
+    "raw:H22D07A3A:record:1146",
+    "raw:H22D07A3A:record:1148"
+  ],
+  "corrected_from": {
+    "erroneous_geometry_source_id": "raw:H22D07A3A:record:1145",
+    "reason": "That mass lies east of the storefront podium. The CBS hotel point is offset into it and was incorrectly treated as exact building geometry."
+  },
+  "sources": [
+    {
+      "kind": "geometry",
+      "reference": "m5/1000/H22D07A3A.dgn",
+      "source_ids": ["raw:H22D07A3A:record:1146", "raw:H22D07A3A:record:1148"],
+      "credit": "Bursa M5 1/1000 hâlihazır DGN",
+      "used_for": "upper hotel mass, shallow commercial/terrace mass, shared boundaries, street alignment and source top elevations",
+      "measured_from_source": {"upper_eave_area_m2": 350.354, "podium_eave_area_m2": 143.699, "street_frontage_m": 19.289},
+      "limit": "Not a facade survey. Local ground elevations and building heights are inferred."
+    },
+    {
+      "kind": "adjacency_check",
+      "reference": "m5/1000/H22D07A3A.dgn",
+      "bank_source_id": "raw:H22D07A3A:record:1147",
+      "eastern_neighbor_source_id": "raw:H22D07A3A:record:1145",
+      "used_for": "1148 adjoins İş Bankası 1147 on the west, 1146 upper block at its rear, and 1145 on the east"
+    },
+    {
+      "kind": "place_identity",
+      "reference": "CBS POI poi:36449",
+      "name": "Kent Hotel",
+      "address": "Nalbantoğlu Mh. Atatürk Cd. No:69 Osmangazi/Bursa",
+      "limit": "POI point is inside the eastern neighboring DGN 1145 polygon, so it is not used to select the modeled mass."
+    },
+    {
+      "kind": "official_website",
+      "url": "https://www.kenthotelbursa.com/Iletisim.html",
+      "credit": "Kent Hotel",
+      "used_for": "No:69 street address"
+    },
+    {
+      "kind": "user_supplied_visual_reference",
+      "provider_visible_in_images": "Google Street View",
+      "reference": "Fotoğraf 1.jpg, Fotoğraf 2.jpg and Fotoğraf 3.jpg shared in this conversation",
+      "used_for": "hotel doorway at west, Colin's central shop, Simit Sarayı to east, terrace/awning, five green upper window rows",
+      "capture_date": null,
+      "exact_panorama_url": null,
+      "image_redistributed": false,
+      "image_used_as_texture": false,
+      "limit": "Facade module sizes, colors and lettering are interpreted rather than measured."
+    }
+  ],
+  "interpretation": [
+    "window and door dimensions",
+    "awning profile",
+    "color shades and sign typography",
+    "side and rear facade openings",
+    "unseen roof details"
+  ]
+}

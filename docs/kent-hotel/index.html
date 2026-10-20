@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="tr">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="theme-color" content="#eeece4">
+ <title>Kent Hotel · Bursa Mimari Atlası</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="../mobile-scene.css">
+ <script defer src="../mobile-scene.js"></script>
+ <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+</head>
+<body>
+<header><a class="brand" href="../birlikte.html">B<span>·</span>A <i>BURSA<br>MİMARİ ATLASI</i></a><span class="edition">BİNA DENEYİ / 002</span><nav class="building-links" aria-label="Bina geçişi"><a class="comparison" href="../birlikte.html">Atlas ↗</a><a class="comparison" href="../">İş Bankası ↗</a><a class="comparison" href="../ulucami/">Ulu Cami ↗</a><a class="comparison" href="../osmanli-bankasi/">Osmanlı Bankası ↗</a></nav></header>
+<main>
+ <aside class="intro">
+  <span class="eyebrow">ATATÜRK CADDESİ · NO:69</span>
+  <h1>Yeşil bir<br>cephe ritmi.</h1>
+  <p class="subtitle">Kent Hotel<br><strong>Bursa · Nalbantoğlu</strong></p>
+  <p class="description">Sürekli pencere bantları, sokağa açılan bir teras ve zemin kattaki canlı cephe.</p>
+  <button class="source-link" id="sources">Kaynağı ve yorumları gör <span>↗</span></button>
+  <div class="numbers"><div><b>494,1 <small>m²</small></b><span>İki DGN saçak alanı</span></div><div><b>19,29 <small>m</small></b><span>Cadde cephesi</span></div></div>
+  <p class="address">Nalbantoğlu · Atatürk Cd. No:69</p>
+ </aside>
+ <section class="stage" id="stage" aria-label="Etkileşimli Kent Hotel modeli">
+  <div id="canvas"></div><div id="loading" role="status">Bina hazırlanıyor…</div>
+  <div class="stage-top"><span class="tag"><i></i> ÖZGÜN 3B ÇALIŞMA</span><div class="stage-actions"><button id="light" aria-pressed="false">☀ Altın saat</button><button id="fullscreen" aria-label="Tam ekran" aria-pressed="false" title="Tam ekran">⛶ <span>Tam ekran</span></button></div></div>
+  <div id="split-labels" hidden><span>DGN kütlesi</span><span>Cephe yorumu</span></div><div id="split-line" hidden></div>
+  <div class="viewbar" aria-label="Kamera açıları"><button data-view="perspective" class="active">Perspektif</button><button data-view="front">Cephe</button><button data-view="roof">Çatı</button></div>
+  <div class="zoom"><button id="plus" aria-label="Yakınlaştır">+</button><button id="minus" aria-label="Uzaklaştır">−</button><button id="reset" aria-label="Görünümü sıfırla">↺</button></div>
+  <div class="stage-bottom"><span id="view-hint">Sürükle: döndür · Tekerlek: yakınlaş</span><span class="north">↑ K <small>cadde yönü</small></span></div>
+ </section>
+ <nav class="tools" aria-label="Model seçenekleri"><button id="compare" aria-pressed="false"><span>◧</span> Kütle / detay</button><button id="context" aria-pressed="false"><span>▦</span> Yakın çevre</button><button id="rotate" aria-pressed="false"><span>⟳</span> Yavaş tur</button><button id="evidence" aria-pressed="false"><span>◇</span> Yorum katmanı</button><label id="split-control" hidden>Karşılaştır <input id="split" type="range" min="15" max="85" value="50"></label></nav>
+ <footer><span>02 — <b>Yeşil bantlar</b></span><p>Kütle DGN saçak verisinden; cephe ayrıntıları görsel yorumdur.</p><span class="status" id="status">Yerel deney</span></footer>
+</main>
+<dialog id="source-dialog">
+ <button class="close" id="close" aria-label="Kaynakları kapat">×</button><span class="eyebrow">NEYİ BİLİYORUZ?</span><h2>Ölçü ile yorum<br>aynı şey değildir.</h2>
+ <div class="evidence-row"><b>01 / Yapı kimliği ve düzeltme</b><p>Kent Hotel'in resmî adresi Atatürk Caddesi No:69. İş Bankası'nın DGN 1147 kütlesiyle ortak sınırı olan alçak 1148, mağaza ve teras cephesidir; arkasındaki yüksek 1146 otel bloğudur. CBS otel noktası doğu komşu 1145 içine kaymış olduğu için kütle seçimine alınmadı.</p></div>
+ <div class="evidence-row"><b>02 / Kaynak geometri</b><p>DGN H22D07A3A kayıt 1146 ve 1148'in saçak alanları 350,4 + 143,7 m²; cadde cephesi 19,29 m. Üst kütlede 24,99 m, alçak kütlede 4,74 m kaynak üst kot farkı var; bunlar ölçülmüş cephe yüksekliği değildir.</p></div>
+ <div class="evidence-row"><b>03 / Cephe gözlemi</b><p>Kullanıcının paylaştığı, Google Street View işaretli Fotoğraf 1–3 ekranlarında soldan sağa otel girişi, Colin's ve Simit Sarayı; üstte teras ve yeşil cepheli otel bloğu görülüyor. Bu düzen DGN'deki öndeki 1148 ve gerideki 1146 ile eşleşiyor. Fotoğraflar model dokusuna kopyalanmadı.</p></div>
+ <div class="evidence-row"><b>04 / Temsilî ayrıntılar</b><p>Pencere ve kapı modül boyutları, tente çıkması, tabela tipografisi, yan/arka cephe açıklıkları ve görünmeyen çatı ayrıntıları ölçülü değildir. Yorum katmanı çatı ve arka yüzeyi işaretler.</p></div>
+ <div class="source-list"><a href="https://www.kenthotelbursa.com/Iletisim.html" target="_blank" rel="noopener">Kent Hotel · Resmî adres sayfası ↗</a><a href="building-sources.json" download>Bu binanın kaynak kaydı (.json) ↓</a><button id="export" class="source-link">3B modeli indir (.glb) ↓</button><a href="building-data.json" download>Yerel geometri ve kaynak kimlikleri ↓</a></div>
+ <p class="fine">Üç Google Street View ekranı bu konuşmada kullanıcı tarafından sağlandı; kesin panorama bağlantısı ve çekim tarihi bilinmiyor, görseller burada yeniden dağıtılmıyor. Mağaza adları ve renkleri zamanla değişebilir. Bu çalışma rölöve veya güncel saha taraması değildir.</p>
+</dialog>
+<script type="module" src="app.js"></script>
+</body>
+</html>

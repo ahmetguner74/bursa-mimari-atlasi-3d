@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "building_id": "raw:H22D07A3A:record:1147",
+  "display_name": "Türkiye İş Bankası Bursa Şubesi",
+  "source_review_date": "2026-10-12",
+  "sources": [
+    {
+      "kind": "geometry",
+      "reference": "m5/1000/H22D07A3A.dgn",
+      "source_id": "raw:H22D07A3A:record:1147",
+      "credit": "Bursa M5 1/1000 hâlihazır DGN",
+      "used_for": "saçak çizgisi ve üst kot",
+      "license_status": "kurum içi kaynak; halka açık yeniden kullanım değerlendirilmedi"
+    },
+    {
+      "kind": "photograph",
+      "url": "https://commons.wikimedia.org/wiki/File:I%C5%9Fbankas%C4%B1,bursa_-_panoramio.jpg",
+      "credit": "cankurtaran",
+      "captured": "2008-03-01",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0",
+      "modifications": "yok",
+      "used_for": "ön cephe ve yan balkonların görsel çapraz kontrolü",
+      "building_match": "görsel olarak doğrulandı",
+      "current_condition": false
+    },
+    {
+      "kind": "photograph",
+      "url": "https://commons.wikimedia.org/wiki/File:%C4%B0%C5%9F_Bankas%C4%B1_Binas%C4%B1,_Bursa_2017-06-25_17.01.48_1791496710.jpg",
+      "credit": "Antonina Vyshnevska",
+      "captured": "2017-06-25",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+      "modifications": "Wikimedia küçültülmüş 960 × 1280 sürümü",
+      "used_for": "üç kemerli ön cephe görsel çapraz kontrolü",
+      "building_match": "görsel olarak doğrulandı",
+      "current_condition": false
+    },
+    {
+      "kind": "publication",
+      "url": "https://dergipark.org.tr/tr/download/article-file/202905",
+      "credit": "Timur Kaprol, Bursa'da Mimari Gelişim, 2002, s.180",
+      "used_for": "yapı tarihçesi ve mimari özellikleri",
+      "copied_media": false
+    },
+    {
+      "kind": "inventory_reference",
+      "url": "https://kulturenvanteri.com/yer/is-bankasi-binasi-bursa/",
+      "credit": "Kültür Envanteri",
+      "used_for": "yapı kimliği ve konum çapraz kontrolü",
+      "copied_media": false
+    }
+  ]
+}

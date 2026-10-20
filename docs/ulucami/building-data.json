@@ -1,0 +1,185 @@
+{
+  "schema": "bursa-ulucami-study/v2",
+  "identity": {
+    "name": "Bursa Ulu Cami",
+    "sourceIds": [
+      "raw:H22D07A3A:record:4524",
+      "raw:H22D07A4B:record:2333"
+    ],
+    "sourceSheets": [
+      "H22D07A3A",
+      "H22D07A4B"
+    ],
+    "sourceLayer": "B_Dini tesis",
+    "cbsPoi": "poi:58329"
+  },
+  "coordinateSystem": {
+    "name": "M5 local ED50-based metres; same XY as Bursa Mimari Atlas",
+    "m5OriginEd50": [
+      419580.0,
+      4450150.0
+    ],
+    "localOrigin": [
+      557.798189,
+      409.897656
+    ],
+    "basisEast": [
+      0.990329747,
+      0.138733528
+    ],
+    "basisNorth": [
+      -0.138733528,
+      0.990329747
+    ]
+  },
+  "surveyDerived": {
+    "sourceFootprint": [
+      [
+        13.432999,
+        -29.03201
+      ],
+      [
+        34.870417,
+        -28.973533
+      ],
+      [
+        34.870417,
+        27.343063
+      ],
+      [
+        21.940457,
+        27.358026
+      ],
+      [
+        8.746887,
+        27.372557
+      ],
+      [
+        8.735673,
+        28.013309
+      ],
+      [
+        5.594427,
+        28.007045
+      ],
+      [
+        5.581811,
+        29.163983
+      ],
+      [
+        -5.227315,
+        29.15246
+      ],
+      [
+        -5.254312,
+        28.001071
+      ],
+      [
+        -8.245013,
+        27.91616
+      ],
+      [
+        -8.238024,
+        27.425445
+      ],
+      [
+        -25.763751,
+        27.589437
+      ],
+      [
+        -27.614361,
+        26.690486
+      ],
+      [
+        -34.688799,
+        26.567761
+      ],
+      [
+        -34.870417,
+        -29.163983
+      ],
+      [
+        13.432999,
+        -29.03201
+      ]
+    ],
+    "footprintAreaM2": 3950.455,
+    "sourceRoofTopRelativeM": 17.4424,
+    "referenceGroundH": 226.4926,
+    "referenceGroundMethod": {
+      "method": "median_of_boundary_8_nearest_road_curb_IDW",
+      "estimatedGroundH": 226.4926,
+      "nearestSupportM": 0.586,
+      "medianSupportDistanceM": 11.657,
+      "localSupportSpreadM": 4.162,
+      "roofConflictClamped": false,
+      "confidence": "inferred"
+    },
+    "roofFrameWidthM": 69.7408,
+    "roofFrameDepthM": 58.328,
+    "minaretSymbols": [
+      {
+        "sourceId": "raw:H22D07A3A:record:8348",
+        "xy": [
+          31.504539,
+          30.7429
+        ],
+        "sourceH": 277.135,
+        "relativeSourceH": 50.6424,
+        "heightMeaning": "DGN symbol anchor H; actual architectural tip not verified"
+      },
+      {
+        "sourceId": "raw:H22D07A4B:record:6592",
+        "xy": [
+          -31.08235,
+          29.779483
+        ],
+        "sourceH": 276.385,
+        "relativeSourceH": 49.8924,
+        "heightMeaning": "DGN symbol anchor H; actual architectural tip not verified"
+      }
+    ],
+    "facadeHeightSurveyed": false
+  },
+  "interpretation": {
+    "domeGrid": [
+      5,
+      4
+    ],
+    "domeCount": 20,
+    "domeGridBasis": "Official architectural inventory; grid axis follows M5 roof minimum rectangle",
+    "drumHeightM": 1.35,
+    "domeRadiusM": 5.7,
+    "domeRiseM": 4.15,
+    "minaretTipM": "49.8–50.4, interpretive",
+    "wallOpenings": "photo-guided blind arch and paired-window rhythm; positions/dimensions not surveyed",
+    "northPortal": "photo-guided massing, steps and abstract muqarnas; ornament not replicated",
+    "skylightCell": [
+      2,
+      1
+    ]
+  },
+  "fountain": {
+    "name": "Mecidiye Çeşme-i Âlîsi / Çinili Çeşme",
+    "inventoryId": "KE195600",
+    "inventoryMarkerWgs84LonLat": [
+      29.061451,
+      40.1836243
+    ],
+    "markerLocal": [
+      -32.04922,
+      -30.093065
+    ],
+    "modelCentreLocal": [
+      -36.5,
+      -32.3
+    ],
+    "placement": "The marker is approximate; the model is shifted about 5 m to clear the mosque's surveyed southwest wall. Fountain footprint and heights are not DGN measurements.",
+    "representedState": "Extant 1994 reconstruction of the 1903 fountain",
+    "footprintInterpretationM": [
+      5.2,
+      5.2
+    ],
+    "source": "https://kulturenvanteri.com/yer/mecidiye-cesme-i-alisi-bursa/"
+  }
+}
